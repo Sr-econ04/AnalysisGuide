@@ -18,7 +18,7 @@
   --r:10px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--text-1);min-height:100vh;font-size:14px;line-height:1.6}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--text-1);min-height:100vh;font-size:14px;line-height:1.6;display:flex;flex-direction:column}
 
 /* ── HEADER ── */
 .hdr{background:var(--surface);border-bottom:1px solid var(--border);padding:14px 24px;position:sticky;top:0;z-index:200}
@@ -32,7 +32,7 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--text
 .nav-btn.active{background:var(--text-1);color:#fff;border-color:var(--text-1)}
 
 /* ── LAYOUT ── */
-main{max-width:860px;margin:0 auto;padding:28px 24px 80px}
+main{max-width:860px;margin:0 auto;padding:28px 24px 40px;flex:1;width:100%}
 .page{display:none}.page.active{display:block}
 
 /* ── SHARED ── */
@@ -419,7 +419,7 @@ main{max-width:860px;margin:0 auto;padding:28px 24px 80px}
       本ツールは以下の条件のもとで自由に利用できます。
       <ul style="margin-left:20px;margin-top:6px">
         <li>非商用目的に限り、無償で利用できます</li>
-        <li>出典（本ツール名およびURL）を明記した上での共有・紹介を歓迎します</li>
+        <li>出典（分析手法ガイド：https://sr-econ04.github.io/AnalysisGuide/index.html）を明記した上での共有・紹介を歓迎します</li>
         <li>コードの改変・再利用は出典を明記した上で行えます</li>
       </ul>
     </div>
